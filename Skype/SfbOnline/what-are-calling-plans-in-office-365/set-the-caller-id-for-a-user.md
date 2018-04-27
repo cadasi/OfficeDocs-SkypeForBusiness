@@ -133,7 +133,8 @@ If you have already created a policy, you can use the [Set-CsCallingLineIdentity
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
-  ```
+
+```
   See more examples and details for [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
 - To apply the policy setting you created to a user in your organization, run:
@@ -181,6 +182,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 [Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-  
+
+[More about Calling Line ID and Calling Party Name] (../more-about-calling-line-ID-and-calling-party-name.md)
   
  
